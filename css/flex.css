@@ -1,0 +1,59 @@
+.loginBar, .buttomBar, .handPicked__top, .support,
+ .handPicked, .featured__items, .testimonial__customers,
+ .emailBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginMenu, .m-menu, .socialBar, .support__action,
+.recent__items, .brand__items, .testimonial__customers-customer,
+.phone, .footerTop, .footerSocial, .product,
+.recent__item {
+  display: flex;
+}
+
+.recent__items, .brand__items {
+  justify-content: space-around;
+}
+
+.recent__items {
+  flex-wrap: wrap;
+}
+
+.product, .recent__item  {
+  justify-content: center;
+}
+
+@media screen and (max-width: 1460px) {
+  .featured__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 1320px) {
+  .support {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .support__action, .handPicked {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .testimonial__customers {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .brand__items {
+    justify-content: center;
+    flex-wrap: wrap;
+  }  
+}

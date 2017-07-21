@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400i|Katibeh" rel="stylesheet">  
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="slick/slick.css"/>
+  <link rel="stylesheet" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Shophia</title>
+</head>
+<body>
+  <header class="topBar">
+    <div class="loginBar">
+      <div class="phone">
+        <img class="phone__img" src="i/phone.svg" alt="Phone">
+        <div class="phone__number">Call +001 555 801</div>
+      </div>
+      <div class="menu-min">
+        <img class="buttomBar__icon menu-icon" src="i/menu.svg" alt="menu">
+        <ul class="menu-min__list">
+          <li class="menu-min__elem"><a class="menu-min__link" href="#">WELCOME MSG!</a></li>
+          <li class="menu-min__elem"><a class="menu-min__link" href="#">MY ACCOUNT</a></li>
+          <li class="menu-min__elem"><a class="menu-min__link" href="#">MY WISHLIST</a></li>
+          <li class="menu-min__elem"><a class="menu-min__link" href="#">LOGIN</a></li>
+          <li class="menu-min__elem">______________</li>
+          <li class="menu-min__elem"><a class="menu-min__link" href="#">Home</a></li>
+          <li class="menu-min__elem"><a class="menu-min__link" href="#">Gallery</a></li>
+          <li class="menu-min__elem"><a class="menu-min__link" href="#">Categories</a></li>
+          <li class="menu-min__elem"><a class="menu-min__link" href="#">Pages</a></li>
+        </ul>
+      </div>
+
+      <ul class="loginMenu">
+        <li class="loginMenu__elem"><a class="loginMenu__link" href="#">WELCOME MSG!</a></li>
+        <li class="loginMenu__elem"><a class="loginMenu__link" href="#">MY ACCOUNT</a></li>
+        <li class="loginMenu__elem"><a class="loginMenu__link" href="#">MY WISHLIST</a></li>
+        <li class="loginMenu__elem loginMenu__elem-login"><a class="loginMenu__link" href="#">LOGIN</a></li>
+      </ul>
+    </div>
+    <div class="buttomBar">
+
+      <ul class="m-menu">
+        <li class="m-menu__elem"><a class="m-menu__link" href="#">Home</a></li>
+        <li class="m-menu__elem"><a class="m-menu__link" href="#">Gallery</a></li>
+        <li class="m-menu__elem"><a class="m-menu__link" href="#">Categories</a></li>
+        <li class="m-menu__elem m-menu__elem-pages"><a class="m-menu__link" href="#">Pages</a></li>
+      </ul>
+      <img class="buttomBar__img" src="i/shophia.ico" alt="shophia">
+      <div class="socialBar">
+        <div class="social">
+          <a href="#" class="social__link social__link-fb"><img class="social__img img-fb" src="i/facebook.svg" alt="facebook"></a>
+          <a href="#" class="social__link social__link-tw"><img class="social__img img-tw" src="i/twitter.svg" alt="twitter"></a>
+          <a href="#" class="social__link social__link-pinterest"><img class="social__img img-pinterest" src="i/pinterest.svg" alt="pinterest"></a>
+          <a href="#" class="social__link social__link-inst"><img class="social__img img-inst" src="i/insta.svg" alt="instagram"></a>
+        </div>
+        <select class="currency">
+          <option>RUPIAH</option>
+          <option>USD</option>
+          <option>EUR</option>
+          <option>RUB</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <div class="slider">
+    <div class="slide">
+      <img class="slide__img" src="images/slider1.png" alt="slide1">
+      <div class="slide__sale">
+        <div class="slide__sale-midSeason">MID-SEASON</div>
+        <div class="slide__sale-sale">SALE</div>
+        <div class="slide__sale-upTo">UP TO</div>
+        <div class="slide__sale-off50">50% OFF</div>
+      </div>
+      <button class="slide__btn" type="button" name="button">SHOP NOW</button>
+    </div>
+    <div class="slide">
+      <img class="slide__img" src="images/slider2.png" alt="slide2">
+      <div class="slide__sale">
+        <div class="slide__sale-midSeason">MID-SEASON</div>
+        <div class="slide__sale-sale">SALE</div>
+        <div class="slide__sale-upTo">UP TO</div>
+        <div class="slide__sale-off50">50% OFF</div>
+      </div>
+      <button class="slide__btn" type="button" name="button">SHOP NOW</button>
+    </div>
+    <div class="slide">
+      <img class="slide__img" src="images/slider3.png" alt="slide3">
+      <div class="slide__sale">
+        <div class="slide__sale-midSeason">MID-SEASON</div>
+        <div class="slide__sale-sale">SALE</div>
+        <div class="slide__sale-upTo">UP TO</div>
+        <div class="slide__sale-off50">50% OFF</div>
+      </div>
+      <button class="slide__btn" type="button" name="button">SHOP NOW</button>
+    </div>
+    <div class="slide">
+      <img class="slide__img" src="images/slider4.png" alt="slide4">
+      <div class="slide__sale">
+        <div class="slide__sale-midSeason">MID-SEASON</div>
+        <div class="slide__sale-sale">SALE</div>
+        <div class="slide__sale-upTo">UP TO</div>
+        <div class="slide__sale-off50">50% OFF</div>
+      </div>
+      <button class="slide__btn" type="button" name="button">SHOP NOW</button>
+    </div>
+  </div>
+
+  <div class="support">
+    <div class="support__action support__action-freeShipping">
+      <img class="support__action-img" src="i/plane.svg" alt="FreeShipping">
+      <div class="support__action-support">
+        <div class="support__title">FREE SHIPPING</div>
+        <div class="support__text">In Order Min $200</div>
+      </div>
+    </div>
+    <div class="support__action support__action-moneyBack">
+      <img class="support__action-img" src="i/time.svg" alt="MoneyBack">
+      <div class="support__action-support">
+        <div class="support__title">30-DAYS RETURNS</div>
+        <div class="support__text">Money Back Guarantee</div>
+      </div>
+    </div>
+    <div class="support__action support__action-support24">
+      <img class="support__action-img" src="i/support.svg" alt="Support">
+      <div class="support__action-support">
+        <div class="support__title">24/7 SUPPORT</div>
+        <div class="support__text">Lifestyme Support</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="featured">
+    <div class="handPicked">
+      <div class="handPicked__line"></div>
+      <div class="handPicked__top">
+        <img class="handPicked__top-img" src="images/rectangle_18.png" alt="rectangle">
+        <div class="handPicked__top-title">Hand Picked</div>
+        <img class="handPicked__top-img" src="images/rectangle_18.png" alt="rectangle">
+      </div>
+      <div class="handPicked__line"></div>
+    </div>
+    <div class="featured__items">
+      <div class="featured__tems-left">
+        <div class="product1 product">
+          <div class="product__hover"></div>
+          <button class="featured__tems-btn" type="button" name="button">SHOP NOW</button>
+          <img class="featured__tems-img featured__tems-1" src="images/rectangle_19_1.jpg" alt="boots">
+        </div>
+        <div class="space"></div>
+        <div class="product2 product">
+          <div class="product__hover"></div>
+          <button class="featured__tems-btn" type="button" name="button">SHOP NOW</button>
+          <img class="featured__tems-img" src="images/rectangle_19_2.jpg" alt="necklace">
+        </div>
+      </div>
+      <div class="featured__tems-center">
+        <div class="product3 product">
+          <div class="product__hover"></div>
+          <button class="featured__tems-btn" type="button" name="button">SHOP NOW</button>
+          <img class="featured__tems-img" src="images/rectangle_19_3.jpg" alt="collection">
+        </div>
+      </div>
+      <div class="featured__tems-right">
+        <div  class="product4 product">
+          <div class="product__hover"></div>
+          <button class="featured__tems-btn" type="button" name="button">SHOP NOW</button>
+          <img class="featured__tems-img featured__tems-4" src="images/rectangle_19_4.jpg" alt="bracelet">
+        </div>
+        <div class="space"></div>
+        <div  class="product5 product">
+          <div class="product__hover"></div>
+          <button class="featured__tems-btn" type="button" name="button">SHOP NOW</button>
+          <img class="featured__tems-img" src="images/rectangle_19_5.jpg" alt="item">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="recent">
+    <div class="handPicked">
+      <div class="handPicked__line"></div>
+      <div class="handPicked__top">
+        <img class="handPicked__top-img" src="images/rectangle_18.png" alt="rectangle">
+        <div class="handPicked__top-title">Summer Collection</div>
+        <img class="handPicked__top-img" src="images/rectangle_18.png" alt="rectangle">
+      </div>
+      <div class="handPicked__line"></div>
+    </div>
+    <div class="recent__items">
+      <div class="recent__item">
+        <div class="recent__item-active"></div>
+        <div class="recent__item-sale20">
+          <span class="recent__item-saleNumber">20</span>
+          <span class="recent__item-salePercent">%</span>
+        </div>
+        <img class="recent__item-img" src="images/layer_4_1.png" alt="item1">
+        <button class="recent__item-btnAddToCart" type="button"><span class="recent__item-btnText">+Add to cart</span></button>
+      </div>
+      <div class="recent__item">
+        <div class="recent__item-active"></div>
+        <img class="recent__item-img" src="images/layer_4_2.jpg" alt="item2">
+        <button class="recent__item-btnAddToCart" type="button"><span class="recent__item-btnText">+Add to cart</span></button>
+      </div>
+      <div class="recent__item">
+        <div class="recent__item-active"></div>
+        <img class="recent__item-img" src="images/layer_4_3.jpg" alt="item3">
+        <button class="recent__item-btnAddToCart" type="button"><span class="recent__item-btnText">+Add to cart</span></button>
+      </div>
+      <div class="recent__item">
+        <div class="recent__item-active"></div>
+        <div class="recent__item-sale40">
+          <span class="recent__item-saleNumber">40</span>
+          <span class="recent__item-salePercent">%</span>
+        </div>
+        <img class="recent__item-img" src="images/layer_4_4.jpg" alt="item4">
+        <button class="recent__item-btnAddToCart" type="button"><span class="recent__item-btnText">+Add to cart</span></button>
+      </div>
+      <div class="recent__item">
+        <div class="recent__item-active"></div>
+        <div class="recent__item-sale20">
+          <span class="recent__item-saleNumber">20</span>
+          <span class="recent__item-salePercent">%</span>
+        </div>
+        <img class="recent__item-img" src="images/layer_4_5.jpg" alt="item5">
+        <button class="recent__item-btnAddToCart" type="button"><span class="recent__item-btnText">+Add to cart</span></button>
+      </div>
+      <div class="recent__item">
+        <div class="recent__item-active"></div>
+        <img class="recent__item-img" src="images/layer_4_6.jpg" alt="item6">
+        <button class="recent__item-btnAddToCart" type="button"><span class="recent__item-btnText">+Add to cart</span></button>
+      </div>
+      <div class="recent__item">
+        <div class="recent__item-active"></div>
+        <img class="recent__item-img" src="images/layer_4_7.jpg" alt="item7">
+        <button class="recent__item-btnAddToCart" type="button"><span class="recent__item-btnText">+Add to cart</span></button>
+      </div>
+      <div class="recent__item">
+        <div class="recent__item-active"></div>
+        <div class="recent__item-sale40">
+          <span class="recent__item-saleNumber">40</span>
+          <span class="recent__item-salePercent">%</span>
+        </div>
+        <img class="recent__item-img" src="images/layer_4_8.jpg" alt="item8">
+        <button class="recent__item-btnAddToCart" type="button"><span class="recent__item-btnText">+Add to cart</span></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand">
+    <div class="handPicked">
+      <div class="handPicked__line"></div>
+      <div class="handPicked__top">
+        <img class="handPicked__top-img" src="images/rectangle_18.png" alt="rectangle">
+        <div class="handPicked__top-title">Our Brand</div>
+        <img class="handPicked__top-img" src="images/rectangle_18.png" alt="rectangle">
+      </div>
+      <div class="handPicked__line"></div>
+    </div>
+    <div class="brand__items">
+      <div class="brand__items-item">
+        <img class="brand__items-img" src="images/brand_1.png" alt="brand_1">
+      </div>
+      <div class="brand__items-item">
+        <img class="brand__items-img" src="images/brand_2.png" alt="brand_2">
+      </div>
+      <div class="brand__items-item">
+        <img class="brand__items-img" src="images/brand_3.png" alt="brand_3">
+      </div>
+      <div class="brand__items-item">
+        <img class="brand__items-img" src="images/brand_4.png" alt="brand_4">
+      </div>
+      <div class="brand__items-item">
+        <img class="brand__items-img" src="images/brand_5.png" alt="brand_5">
+      </div>
+      <div class="brand__items-item">
+        <img class="brand__items-img" src="images/brand_6.png" alt="brand_6">
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonial">
+    <div class="handPicked">
+      <div class="handPicked__line"></div>
+      <div class="handPicked__top">
+        <img class="handPicked__top-img" src="images/rectangle_18.png" alt="rectangle">
+        <div class="handPicked__top-title">Customers Says</div>
+        <img class="handPicked__top-img" src="images/rectangle_18.png" alt="rectangle">
+      </div>
+      <div class="handPicked__line"></div>
+    </div>
+    <div class="testimonial__customers">
+      <div class="testimonial__customers-customer">
+        <div class="customer__img">
+          <img class="cust__img" src="images/customer_1.png" alt="customer_1">
+        </div>
+        <div class="customer__text">
+          <div class="customer__text-send">Sed ut perspiciatis</div>
+          <div class="customer__text-send">unde omnis iste natus error sit</div>
+          <div class="customer__text-send">voluptatem accusantium doloremque</div>
+          <div class="customer__text-name">Sandra Dewi</div>
+          <div class="customer__text-profession">FASHION STYLISH</div>
+        </div>
+      </div>
+      <div class="testimonial__customers-customer">
+        <div class="customer__text sheikh">
+          <div class="customer__text-send">Sed ut perspiciatis</div>
+          <div class="customer__text-send">unde omnis iste natus error sit</div>
+          <div class="customer__text-send">voluptatem accusantium doloremque</div>
+          <div class="customer__text-name">Shaheer Sheikh</div>
+          <div class="customer__text-profession">DESIGNER</div>
+        </div>
+        <div class="customer__img">
+          <img class="cust__img" src="images/customer_2.png" alt="customer_2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footerTop">
+      <div class="shops">
+        <div class="shops__title footerTop__title">SHOPS</div>
+        <ul class="shops__list footerTop__list">
+          <li class="shops__list-item"><a class="shops__list-link" href="#">New In</a></li>
+          <li class="shops__list-item"><a class="shops__list-link" href="#">Women</a></li>
+          <li class="shops__list-item"><a class="shops__list-link" href="#">Men</a></li>
+          <li class="shops__list-item"><a class="shops__list-link" href="#">Shoes</a></li>
+          <li class="shops__list-item"><a class="shops__list-link" href="#">Bags &amp; Accessories</a></li>
+          <li class="shops__list-item"><a class="shops__list-link" href="#">Top Brands</a></li>
+          <li class="shops__list-item"><a class="shops__list-link" href="#">Sale &amp; Special Offers</a></li>
+          <li class="shops__list-item"><a class="shops__list-link" href="#">Lookbook</a></li>
+        </ul>
+      </div>
+      <div class="information">
+        <div class="information__title footerTop__title">INFORMATION</div>
+        <ul class="information__list footerTop__list">
+          <li class="information__list-item"><a class="information__list-link" href="#">About us</a></li>
+          <li class="information__list-item"><a class="information__list-link" href="#">Customer Service</a></li>
+          <li class="information__list-item"><a class="information__list-link" href="#">New Collection</a></li>
+          <li class="information__list-item"><a class="information__list-link" href="#">Best Sellers</a></li>
+          <li class="information__list-item"><a class="information__list-link" href="#">Manufacturers</a></li>
+          <li class="information__list-item"><a class="information__list-link" href="#">Privacy policy</a></li>
+          <li class="information__list-item"><a class="information__list-link" href="#">Terms &amp; condition</a></li>
+          <li class="information__list-item"><a class="information__list-link" href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="customerService">
+        <div class="customerService__title footerTop__title">CUSTOMER SERVICE</div>
+        <ul class="customerService__list footerTop__list">
+          <li class="customerService__list-item"><a class="customerService__list-link" href="#">Search Terms</a></li>
+          <li class="customerService__list-item"><a class="customerService__list-link" href="#">Advanced Search</a></li>
+          <li class="customerService__list-item"><a class="customerService__list-link" href="#">Orders and Returns</a></li>
+          <li class="customerService__list-item"><a class="customerService__list-link" href="#">Contact Us</a></li>
+          <li class="customerService__list-item"><a class="customerService__list-link" href="#">RSS</a></li>
+          <li class="customerService__list-item"><a class="customerService__list-link" href="#">Help &amp; FAQs</a></li>
+          <li class="customerService__list-item"><a class="customerService__list-link" href="#">Consultant</a></li>
+          <li class="customerService__list-item"><a class="customerService__list-link" href="#">Store Locations</a></li>
+        </ul>
+      </div>
+      <div class="stayConnected">
+        <div class="stayConnected__title footerTop__title">STAY CONNECTED</div>
+        <div class="footerSocial">
+          <div class="socialFooter">
+            <a href="#" class="socialFooter__link socialFooter__link-fb"><img class="socialFooter__img socialFooter__img-fb" src="i/facebook-b.svg" alt="facebook"></a>
+          </div>
+          <div class="socialFooter">
+            <a href="#" class="socialFooter__link socialFooter__link-tw"><img class="socialFooter__img socialFooter__img-tw" src="i/twitter-b.svg" alt="twitter"></a>
+          </div>
+          <div class="socialFooter">
+            <a href="#" class="socialFooter__link socialFooter__link-inst"><img class="socialFooter__img socialFooter__img-inst" src="i/insta-b.svg" alt="instagram"></a>
+          </div>
+          <div class="socialFooter">
+            <a href="#" class="socialFooter__link socialFooter__link-pinterest"><img class="socialFooter__img socialFooter__img-pinterest" src="i/pinterest-b.svg" alt="pinterest"></a>
+          </div>
+          <div class="socialFooter">
+            <a href="#" class="socialFooter__link socialFooter__link-feed"><img class="socialFooter__img socialFooter__img-feed" src="i/feed-b.svg" alt="feed"></a>
+          </div>
+        </div>
+        <div class="textBlock">
+          <span class="textBlock__span">Subscribe</span>
+          <span class="textBlock__span1">in</span>
+          <span class="textBlock__span">our news letter</span>
+        </div>
+        <form name="email" action="#" method="post" class="emailBox">
+          <input class="emailBox__input" type="text" placeholder="Enter Your Email Address">
+          <button class="emailBox__btn" type="button" name="button">SUBSCRIBE</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footerBottom">
+      <div class="footerBottom__line"></div>
+      <div class="footerBottom__content content2017">&copy; 2017 Shophia Fashion Store Shopify.</div>
+      <div class="footerBottom__content">All Rigats Reserved. Ecommerce Software by Shopify.</div>
+      <div class="footerBottom__content">Designed by MoccaLabs.com</div>
+      <div class="footerBottom__bankCard">
+        <img class="footerBottom__bankCard-img" src="i/visa.svg" alt="visa">
+        <img class="footerBottom__bankCard-img" src="i/mastercard.svg" alt="mastercard">
+        <img class="footerBottom__bankCard-img" src="i/american.svg" alt="american_express">
+        <img class="footerBottom__bankCard-img" src="i/discover.svg" alt="discover">
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
